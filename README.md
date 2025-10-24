@@ -1,16 +1,16 @@
-## Hi there 👋
+# Hi there, I'm wiyw! 👋
 
-<!--
-**wiyw/wiyw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 **Student on a mission:**  
+I'm passionate about web application development—both front and back end. My current goal? Become fluent in multiple programming languages and finish my studies with straight A's!
 
-Here are some ideas to get you started:
+🚀 **Featured Project**  
+Check out my [slack-clone](https://github.com/wiyw/slack-clone):  
+> Built with **TypeScript** (81.5%), plus some **JavaScript** and **CSS** magic.  
+> Collaboration, real-time chat, and a dash of fun—just like the real thing!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💡 **My Motivation**  
+I’m inspired by the amazing researchers and developers working tirelessly to cure cancer. Their dedication fuels my own journey—one day, I hope to make an impact, too!
+
+---
+
+> _“Code with purpose, learn with passion, and always aim for the A!”_ 🌟
