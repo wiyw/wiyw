@@ -95,5 +95,5 @@ const developer = {
 <br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=matrix&hide_border=true" alt="GitHub Streak" width="98%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wiyw&theme=matrix&hide_border=true" alt="GitHub Streak" width="98%" />
 </div>
