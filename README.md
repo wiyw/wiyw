@@ -4,6 +4,15 @@
   <p align="center">
     <strong>Security Research & Systems Engineering</strong> · <strong>Linux Architecture & Ricing</strong> · <strong>Based in California 🇺🇸</strong>
   </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/I_use_Arch_btw-%231793D1.svg?style=for-the-badge&logo=arch-linux&logoColor=white" alt="I use Arch btw" />
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/followers/wiyw?label=Followers&style=social" alt="Followers"/>
+    <img src="https://img.shields.io/github/stars/wiyw?label=Total%20Stars&style=social" alt="Stars"/>
+  </p>
 </div>
 
 <br />
@@ -40,6 +49,15 @@ const developer = {
 
 ---
 
+## Active Research & Registries
+
+| Reference / Project | Target / Vector | Status / Artifact |
+| :--- | :--- | :--- |
+| **nixos-config** | NixOS interstellar based rice | Ricing / Space Addiction |
+| **hypr-dots**| Mainly active hypr-arch dots | Ricing / Currently Private |
+
+---
+
 ## Tech Stack
 
 ### Languages
@@ -64,3 +82,18 @@ const developer = {
   <img src="https://img.shields.io/badge/Hyprland-00BFFF?style=flat-square&logo=hyprland&logoColor=white" alt="Hyprland" />
   <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua" />
 </p>
+
+---
+
+## Laboratory Metrics & Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wiyw&show_icons=true&theme=matrix&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wiyw&layout=compact&theme=matrix&hide_border=true&langs_count=6" alt="Top Languages" width="48%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=matrix&hide_border=true" alt="GitHub Streak" width="98%" />
+</div>
