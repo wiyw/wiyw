@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://demolab.com" alt="Typing SVG" />
+  <img src="https://herokuapp.com" alt="Typing SVG" />
 
   <p align="center">
     <strong>Exploit Developer & Security Engineer</strong> · <strong>Linux Architecture & Ricing</strong> · <strong>Based in California 🇺🇸</strong>
@@ -43,10 +43,24 @@ const developer = {
 ## Tech Stack
 
 ### Languages
-![C](https://shields.io) ![C++](https://shields.io) ![Rust](https://shields.io) ![Python](https://shields.io) ![Bash](https://shields.io) ![Nix](https://shields.io)
+<p>
+  <img src="https://shields.io" alt="C"/>
+  <img src="https://shields.io" alt="C++"/>
+  <img src="https://shields.io" alt="Rust"/>
+  <img src="https://shields.io" alt="Python"/>
+  <img src="https://shields.io" alt="Bash"/>
+  <img src="https://shields.io" alt="Nix"/>
+</p>
 
 ### Security & Systems
-![Linux](https://shields.io) ![NixOS](https://shields.io) ![QEMU](https://shields.io)
+<p>
+  <img src="https://shields.io" alt="Linux"/>
+  <img src="https://shields.io" alt="NixOS"/>
+  <img src="https://shields.io" alt="QEMU"/>
+</p>
 
 ### Desktop Environment (Ricing)
-![Hyprland](https://shields.io) ![Lua](https://shields.io)
+<p>
+  <img src="https://shields.io" alt="Hyprland"/>
+  <img src="https://shields.io" alt="Lua"/>
+</p>
