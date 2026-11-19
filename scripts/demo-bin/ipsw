@@ -1,0 +1,6 @@
+#!/bin/sh
+printf '• extracting dyld shared cache\n'
+sleep 0.4
+printf '• 27.0.1 → 27.2\n'
+sleep 0.3
+printf '  found 3 changed classes\n'

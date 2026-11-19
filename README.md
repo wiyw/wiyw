@@ -6,6 +6,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=FFFFFF&center=true&vCenter=true&width=760&lines=greyson%40mac+%25+cargo+build+-p+horizon;greyson%40mac+%25+ipsw+extract+--dyld;greyson%40mac+%25+qmlscene+SekaiPop;greyson%40mac+%25+ssh+archbox" alt="Typed commands" />
 
+<img src="assets/demo.gif" alt="Recorded terminal session: cargo build, ipsw extract, and qmlscene" width="100%" />
+
 </div>
 
 <div align="center">
@@ -69,6 +71,8 @@
 <div align="center">
 
 <img src="assets/divider.svg" alt="" width="70%" />
+
+<p><a href="https://discord.com/users/1405986482283352185"><img src="assets/contact-discord.svg" alt="Discord: @wiywfr" height="48" /></a></p>
 
 <p><sub>greyson@mac ~ % exit<br />logout</sub></p>
 
