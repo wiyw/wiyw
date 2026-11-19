@@ -14,18 +14,18 @@
 
 </div>
 
-## ❯ work
+## ❯ current projects
 
 <div align="center">
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/horizon-rust/horizon"><img src="assets/cards/horizon.png" alt="horizon — Minecraft: Java Edition in Rust" width="100%" /></a></td>
 <td width="50%"><a href="https://github.com/wiyw/jb-research"><img src="assets/cards/jb-research.svg" alt="jb-research — iOS patch diffing and reverse engineering" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/wiyw/sekaipop-omdrop"><img src="assets/cards/sekaipop-omdrop.svg" alt="sekaipop-omdrop — QML plugin for SekaiPop" width="100%" /></a></td>
 </tr>
 <tr>
+<td width="50%"><a href="https://github.com/horizon-rust/horizon"><img src="assets/cards/horizon.png" alt="horizon — Minecraft: Java Edition in Rust" width="100%" /></a></td>
 <td width="50%"><a href="https://github.com/Blapples/SekaiPop"><img src="assets/cards/SekaiPop.png" alt="SekaiPop — Project Sekai Quickshell rice" width="100%" /></a></td>
-<td width="50%"><a href="https://github.com/wiyw/sekaipop-omdrop"><img src="assets/cards/sekaipop-omdrop.svg" alt="sekaipop-omdrop — QML plugin for SekaiPop" width="100%" /></a></td>
 </tr>
 </table>
 
