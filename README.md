@@ -5,8 +5,8 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=FFFFFF&center=true&vCenter=true&width=760&lines=greyson%40mac+%25+cargo+build+-p+horizon;greyson%40mac+%25+ipsw+extract+--dyld;greyson%40mac+%25+qmlscene+SekaiPop;greyson%40mac+%25+ssh+archbox" alt="Typed commands" />
 
 <p>
-  <img src="https://img.shields.io/badge/macOS-daily%20driver-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS daily driver" />
-  <img src="https://img.shields.io/badge/Arch-still%20use%20it-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/macOS-primary-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS primary" />
+  <img src="https://img.shields.io/badge/Arch-secondary-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux secondary" />
   <img src="https://img.shields.io/badge/California-US-242b31?style=for-the-badge" alt="Location" />
   <img src="https://img.shields.io/github/followers/wiyw?label=followers&style=for-the-badge" alt="Followers" />
   <img src="https://img.shields.io/github/stars/wiyw?label=stars&style=for-the-badge" alt="Stars" />
@@ -14,59 +14,19 @@
 
 </div>
 
-## ❯ cat about.md
-
-Most of my work happens on a Mac now: Rust on Horizon, iOS firmware diffs, and fixing whatever I broke in my Quickshell setup. Arch is still around — separate box, used for Wayland experiments and anything I don't want touching my daily driver.
-
-```text
-greyson@mac ~ % uname -a
-Darwin greysons-mac 25.2.0 arm64
-
-greyson@mac ~ % ssh archbox
-greyson@archbox ~ % uname -a
-Linux archbox 6.18.8-arch1-1 x86_64 GNU/Linux
-```
-
-## ❯ ./now --status
-
-<div align="center">
-
-<img src="assets/status.svg" alt="Session active on macOS, Arch in rotation" height="32" />
-
-</div>
-
-- **Horizon** — mostly Rust. I've been helping close gaps against vanilla and running the differential checks.
-- **jb-research** — the iOS side: diffing 27.0.1 against 27.2, pulling dylibs out of the shared cache.
-- **SekaiPop** — my Quickshell rice. Still test it on the Arch box before I call it done.
-- Currently reading about allocators and `arm64e` signing.
-
 <div align="center">
 
 <img src="assets/divider.svg" alt="" width="70%" />
 
 </div>
 
-## ❯ man disciplines
-
-| Reverse Engineering | Systems & Rust | Desktop & Daily Drivers |
-| :--- | :--- | :--- |
-| iOS diffs, CVE lookup, Ghidra, dyld shared cache, `arm64e` Mach-O | Rust engines, differential harnesses, allocator behavior, C utilities | macOS daily, Arch for experiments, Quickshell/QML, Hyprland on the Linux box |
-
-<div align="center">
-
-<img src="assets/divider.svg" alt="" width="70%" />
-
-</div>
-
-## ❯ cat focus.map
+## ❯ focus
 
 <div align="center">
 
 <img src="assets/focus-map.svg" alt="Terminal output of animated language focus bars" width="100%" />
 
-</div>
-
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -78,19 +38,7 @@ Linux archbox 6.18.8-arch1-1 x86_64 GNU/Linux
   <img src="https://img.shields.io/badge/GLSL-3A8FBD?style=flat-square" alt="GLSL" />
 </p>
 
-## ❯ ls -1 projects/
-
-| Project | What it is | Stack |
-| :--- | :--- | :--- |
-| [horizon](https://github.com/wiyw/horizon) | Minecraft: Java Edition rewritten in Rust, checked against vanilla with 281 differential harnesses | `Rust` `WGSL` `GLSL` |
-| [jb-research](https://github.com/wiyw/jb-research) | Patch diffing iOS 27.0.1 → 27.2, CVE references, Ghidra output | `C` `arm64e` |
-| [SekaiPop](https://github.com/wiyw/SekaiPop) | Project Sekai themed Quickshell rice | `QML` `GLSL` `Lua` |
-| [sekaipop-omdrop](https://github.com/wiyw/sekaipop-omdrop) | Omdrop plugin for SekaiPop | `QML` `JavaScript` |
-| [nixos-config](https://github.com/wiyw/nixos-config) | Interstellar themed NixOS config | `Nix` |
-
-<p align="center">
-  <a href="https://github.com/wiyw?tab=repositories">view all repositories →</a>
-</p>
+</div>
 
 <div align="center">
 
@@ -98,7 +46,24 @@ Linux archbox 6.18.8-arch1-1 x86_64 GNU/Linux
 
 </div>
 
-## ❯ ./telemetry.sh
+## ❯ work
+
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| [horizon](https://github.com/wiyw/horizon) | Minecraft: Java Edition in Rust, checked against vanilla with 281 differential harnesses | `Rust` `WGSL` `GLSL` |
+| [jb-research](https://github.com/wiyw/jb-research) | iOS 27.0.1 → 27.2 patch diffing, CVE mapping, Ghidra artifacts | `C` `arm64e` |
+| [SekaiPop](https://github.com/wiyw/SekaiPop) | Project Sekai themed Quickshell rice | `QML` `GLSL` `Lua` |
+| [sekaipop-omdrop](https://github.com/wiyw/sekaipop-omdrop) | Omdrop plugin for SekaiPop | `QML` `JavaScript` |
+
+<p align="center"><a href="https://github.com/wiyw?tab=repositories">all repositories →</a></p>
+
+<div align="center">
+
+<img src="assets/divider.svg" alt="" width="70%" />
+
+</div>
+
+## ❯ activity
 
 <div align="center">
 

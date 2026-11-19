@@ -37,7 +37,7 @@
       <text x="30" y="154"><tspan fill="#aab4bb">role    </tspan><tspan fill="#f2f5f7">: systems engineer · reverse engineer</tspan></text>
     </g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.25s" fill="freeze"/>
-      <text x="30" y="180"><tspan fill="#aab4bb">os      </tspan><tspan fill="#f2f5f7">: macOS (daily)</tspan><tspan fill="#6b757d">  /  </tspan><tspan fill="#f2f5f7">Arch Linux (still around)</tspan></text>
+      <text x="30" y="180"><tspan fill="#aab4bb">os      </tspan><tspan fill="#f2f5f7">: macOS (primary)</tspan><tspan fill="#6b757d">  /  </tspan><tspan fill="#f2f5f7">Arch Linux (secondary)</tspan></text>
     </g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.45s" fill="freeze"/>
       <text x="30" y="206"><tspan fill="#aab4bb">focus   </tspan><tspan fill="#f2f5f7">: Rust · C · arm64e · QML · Wayland</tspan></text>
@@ -46,7 +46,7 @@
       <text x="30" y="232"><tspan fill="#aab4bb">work    </tspan><tspan fill="#f2f5f7">: Horizon · jb-research · SekaiPop</tspan></text>
     </g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.85s" fill="freeze"/>
-      <text x="30" y="258"><tspan fill="#aab4bb">uptime  </tspan><tspan fill="#f2f5f7">: too long</tspan></text>
+      <text x="30" y="258"><tspan fill="#aab4bb">based   </tspan><tspan fill="#f2f5f7">: California, US</tspan></text>
     </g>
     <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.05s" fill="freeze"/>
       <text x="30" y="298"><tspan fill="#ffffff">greyson@mac</tspan><tspan fill="#6b757d"> ~ % </tspan></text>
