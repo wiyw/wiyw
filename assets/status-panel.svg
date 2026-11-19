@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="status-title status-desc">
+  <title id="status-title">Live GitHub status</title>
+  <desc id="status-desc">Terminal panel with live followers, stars, repositories, commits, and language mix.</desc>
+  <rect x="4" y="4" width="1192" height="332" rx="12" fill="#080a0c" stroke="#242b31"/>
+  <rect x="4" y="4" width="1192" height="40" rx="12" fill="#101417"/>
+  <rect x="4" y="28" width="1192" height="16" fill="#101417"/>
+  <line x1="4" y1="44" x2="1196" y2="44" stroke="#242b31"/>
+  <circle cx="30" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="52" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="74" cy="24" r="6" fill="#27c93f"/>
+  <text x="600" y="29" text-anchor="middle" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="13" fill="#78838b">greyson@mac — status — zsh</text>
+  <text x="30" y="88" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="21"><tspan fill="#ffffff">greyson@mac</tspan><tspan fill="#6b757d"> ~ % </tspan><tspan fill="#f2f5f7">status --all</tspan></text>
+  <text x="30" y="128" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">followers</tspan></text>
+  <text x="198" y="128" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">8</text>
+  <text x="30" y="156" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">stars</tspan></text>
+  <text x="198" y="156" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">3</text>
+  <text x="30" y="184" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">repos</tspan></text>
+  <text x="198" y="184" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">8</text>
+  <text x="30" y="212" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">commits</tspan></text>
+  <text x="198" y="212" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">12 in 30d</text>
+  <text x="620" y="128" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">os</tspan></text>
+  <text x="788" y="128" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">macOS / Arch Linux</text>
+  <text x="620" y="156" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">based</tspan></text>
+  <text x="788" y="156" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">California, US</text>
+  <text x="620" y="184" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">last commit</tspan></text>
+  <text x="788" y="184" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">wiyw/wiyw</text>
+  <text x="620" y="212" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17"><tspan fill="#aab4bb">updated</tspan></text>
+  <text x="788" y="212" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17" fill="#f2f5f7">2026-11-18</text>
+  <rect x="30" y="244" width="1140" height="12" rx="3" fill="#14191d"/>
+  <rect x="30.0" y="244" width="205.2" height="12" fill="#ffffff"/>
+  <rect x="235.2" y="244" width="171.0" height="12" fill="#e3e9ec"/>
+  <rect x="406.2" y="244" width="159.6" height="12" fill="#c6ced3"/>
+  <rect x="565.8" y="244" width="148.2" height="12" fill="#aab4bb"/>
+  <rect x="714.0" y="244" width="136.8" height="12" fill="#78838b"/>
+  <rect x="850.8" y="244" width="91.2" height="12" fill="#4c555b"/>
+  <rect x="942.0" y="244" width="228.0" height="12" fill="#2b3238"/>
+  <text x="30" y="286" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="15" fill="#aab4bb">languages  QML 18% · TypeScript 15% · C 14% · Python 13% · Rust 12% · Nix 8%</text>
+  <text x="30" y="318" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="13" fill="#6b757d"># auto-generated · refreshes daily</text>
+  <rect x="1150" y="304" width="11" height="18" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
