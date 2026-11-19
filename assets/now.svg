@@ -1,9 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-labelledby="now-title now-desc">
   <title id="now-title">Latest activity</title>
   <desc id="now-desc">The most recent public push and how long ago it happened.</desc>
+  <style>
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .motion { display: none; }
+      .still { display: block; }
+    }
+  </style>
+
   <rect x="4" y="4" width="1192" height="56" rx="10" fill="#080a0c" stroke="#242b31"/>
-  <text x="30" y="40" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="16"><tspan fill="#ffffff">❯ now</tspan><tspan fill="#6b757d">  committed to </tspan><tspan fill="#f2f5f7">wiyw/wiyw</tspan><tspan fill="#6b757d"> · </tspan><tspan fill="#aab4bb">"Remove duplicate focus section from profile README"</tspan><tspan fill="#6b757d"> · 13m ago</tspan></text>
-  <rect x="1160" y="27" width="10" height="16" fill="#ffffff">
+  <text x="30" y="40" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="16"><tspan fill="#ffffff">❯ now</tspan><tspan fill="#6b757d">  committed to </tspan><tspan fill="#f2f5f7">wiyw/wiyw</tspan><tspan fill="#6b757d"> · </tspan><tspan fill="#aab4bb">"Add live status panel and project cards to profile ..."</tspan><tspan fill="#6b757d"> · 8m ago</tspan></text>
+  <rect class="motion" x="1160" y="27" width="10" height="16" fill="#ffffff">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
+  <rect class="still" x="1160" y="27" width="10" height="16" fill="#ffffff"/>
 </svg>

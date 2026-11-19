@@ -20,16 +20,37 @@
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/wiyw/horizon"><img src="assets/cards/horizon.png" alt="horizon — Minecraft: Java Edition in Rust" width="100%" /></a></td>
-<td width="50%"><a href="https://github.com/wiyw/jb-research"><img src="assets/cards/jb-research.png" alt="jb-research — iOS patch diffing and reverse engineering" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/horizon-rust/horizon"><img src="assets/cards/horizon.png" alt="horizon — Minecraft: Java Edition in Rust" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/wiyw/jb-research"><img src="assets/cards/jb-research.svg" alt="jb-research — iOS patch diffing and reverse engineering" width="100%" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/wiyw/SekaiPop"><img src="assets/cards/SekaiPop.png" alt="SekaiPop — Project Sekai Quickshell rice" width="100%" /></a></td>
-<td width="50%"><a href="https://github.com/wiyw/sekaipop-omdrop"><img src="assets/cards/sekaipop-omdrop.png" alt="sekaipop-omdrop — QML plugin for SekaiPop" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/Blapples/SekaiPop"><img src="assets/cards/SekaiPop.png" alt="SekaiPop — Project Sekai Quickshell rice" width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/wiyw/sekaipop-omdrop"><img src="assets/cards/sekaipop-omdrop.svg" alt="sekaipop-omdrop — QML plugin for SekaiPop" width="100%" /></a></td>
 </tr>
 </table>
 
 <p><a href="https://github.com/wiyw?tab=repositories">all repositories →</a></p>
+
+<details>
+<summary><sub>more repositories</sub></summary>
+
+<p><sub><a href="https://github.com/wiyw/slack-clone">slack-clone</a> · <a href="https://github.com/wiyw/Invention-Convention-2026">Invention-Convention-2026</a> · <a href="https://github.com/wiyw/nixos-config">nixos-config</a></sub></p>
+
+</details>
+
+</div>
+
+<div align="center">
+
+<img src="assets/divider.svg" alt="" width="70%" />
+
+</div>
+
+## ❯ growth
+
+<div align="center">
+
+<img src="https://api.star-history.com/svg?repos=horizon-rust/horizon&type=Date&theme=dark" alt="Star history of horizon-rust/horizon" width="100%" />
 
 </div>
 

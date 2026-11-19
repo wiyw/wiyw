@@ -4,8 +4,13 @@
       <animate attributeName="x" from="-160" to="900" dur="6s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      .sweep { display: none; }
+    }
+  </style>
   <line x1="0" y1="12" x2="900" y2="12" stroke="#242b31" stroke-width="2" stroke-dasharray="3 7"/>
-  <g clip-path="url(#sweep)">
+  <g class="sweep" clip-path="url(#sweep)">
     <line x1="0" y1="12" x2="900" y2="12" stroke="#f2f5f7" stroke-width="2" stroke-dasharray="3 7"/>
   </g>
 </svg>

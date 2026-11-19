@@ -11,6 +11,14 @@ USER = "wiyw"
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 MONO = "Fira Code, SF Mono, Menlo, Consolas, monospace"
+STYLE = """  <style>
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .motion { display: none; }
+      .still { display: block; }
+    }
+  </style>
+"""
 
 
 def github_token():
@@ -84,6 +92,7 @@ def collect():
         "followers": user["followers"],
         "stars": sum(repo["stargazers_count"] for repo in repos),
         "repos": user["public_repos"],
+        "repo_stars": {repo["name"]: repo["stargazers_count"] for repo in repos},
         "languages": languages,
         "commits": len(recent),
         "repository": repository,
@@ -137,6 +146,7 @@ def status_panel(data):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="status-title status-desc">
   <title id="status-title">Live GitHub status</title>
   <desc id="status-desc">Terminal panel with live followers, stars, repositories, commits, and language mix.</desc>
+{STYLE}
 {chrome("greyson@mac — status — zsh", 340)}
   <text x="30" y="88" font-family="{MONO}" font-size="21"><tspan fill="#ffffff">greyson@mac</tspan><tspan fill="#6b757d"> ~ % </tspan><tspan fill="#f2f5f7">status --all</tspan></text>
 {body}
@@ -144,9 +154,10 @@ def status_panel(data):
 {chr(10).join(segments)}
   <text x="30" y="286" font-family="{MONO}" font-size="15" fill="#aab4bb">languages  {" · ".join(legend)}</text>
   <text x="30" y="318" font-family="{MONO}" font-size="13" fill="#6b757d"># auto-generated · refreshes daily</text>
-  <rect x="1150" y="304" width="11" height="18" fill="#ffffff">
+  <rect class="motion" x="1150" y="304" width="11" height="18" fill="#ffffff">
     <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
   </rect>
+  <rect class="still" x="1150" y="304" width="11" height="18" fill="#ffffff"/>
 </svg>
 '''
 
@@ -158,11 +169,42 @@ def now_line(data):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-labelledby="now-title now-desc">
   <title id="now-title">Latest activity</title>
   <desc id="now-desc">The most recent public push and how long ago it happened.</desc>
+{STYLE}
   <rect x="4" y="4" width="1192" height="56" rx="10" fill="#080a0c" stroke="#242b31"/>
   <text x="30" y="40" font-family="{MONO}" font-size="16"><tspan fill="#ffffff">❯ now</tspan><tspan fill="#6b757d">  committed to </tspan><tspan fill="#f2f5f7">{esc(data["repository"])}</tspan><tspan fill="#6b757d"> · </tspan><tspan fill="#aab4bb">"{esc(message)}"</tspan><tspan fill="#6b757d"> · {esc(relative_time(data["when"]))}</tspan></text>
-  <rect x="1160" y="27" width="10" height="16" fill="#ffffff">
+  <rect class="motion" x="1160" y="27" width="10" height="16" fill="#ffffff">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
+  <rect class="still" x="1160" y="27" width="10" height="16" fill="#ffffff"/>
+</svg>
+'''
+
+
+def project_card(name, about, stack, data):
+    shades = ["#ffffff", "#d6dde2", "#aab4bb", "#78838b", "#4c555b", "#3a4147"]
+    widths = [420, 340, 390, 270, 320, 210]
+    bars = "\n".join(
+        f'  <rect x="700" y="{132 + index * 40}" width="{width}" height="8" rx="4" fill="{shade}"/>'
+        for index, (width, shade) in enumerate(zip(widths, shades))
+    )
+    rows = [
+        (30, 140, "name", name),
+        (30, 178, "about", about),
+        (30, 216, "stack", stack),
+        (30, 254, "stars", data["repo_stars"].get(name, 0)),
+        (30, 292, "repo", f"{USER}/{name}"),
+    ]
+    body = "\n".join(terminal_row(x, y, label, value) for x, y, label, value in rows)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-labelledby="card-title card-desc">
+  <title id="card-title">{esc(name)}</title>
+  <desc id="card-desc">{esc(about)}</desc>
+{STYLE}
+{chrome(f"greyson@mac — {name} — zsh", 600)}
+  <text x="30" y="88" font-family="{MONO}" font-size="21"><tspan fill="#ffffff">greyson@mac</tspan><tspan fill="#6b757d"> ~ % </tspan><tspan fill="#f2f5f7">cat {esc(name)}.md</tspan></text>
+{body}
+  <line x1="660" y1="110" x2="660" y2="470" stroke="#242b31"/>
+{bars}
+  <text x="30" y="540" font-family="{MONO}" font-size="13" fill="#6b757d"># auto-generated · refreshes daily</text>
 </svg>
 '''
 
@@ -171,6 +213,9 @@ def main():
     data = collect()
     (ASSETS / "status-panel.svg").write_text(status_panel(data))
     (ASSETS / "now.svg").write_text(now_line(data))
+    cards = ASSETS / "cards"
+    (cards / "jb-research.svg").write_text(project_card("jb-research", "iOS 27.0.1 → 27.2 patch diffing", "C · arm64e", data))
+    (cards / "sekaipop-omdrop.svg").write_text(project_card("sekaipop-omdrop", "Omdrop plugin for SekaiPop", "QML · JavaScript", data))
 
 
 if __name__ == "__main__":

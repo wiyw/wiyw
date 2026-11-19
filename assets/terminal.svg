@@ -2,6 +2,9 @@
   <title id="t">Terminal session: whoami --verbose</title>
   <desc id="d">A terminal window that types a command and reveals its output line by line.</desc>
   <defs>
+    <clipPath id="typed-static">
+      <rect x="24" y="58" width="420" height="42"/>
+    </clipPath>
     <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" fill="#ffffff" opacity="0.025"/>
     </pattern>
@@ -11,6 +14,16 @@
       </rect>
     </clipPath>
   </defs>
+
+  <style>
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .motion { display: none; }
+      .still { display: block; }
+      .reveal { opacity: 1 !important; }
+      .typed { clip-path: url(#typed-static); }
+    }
+  </style>
 
   <rect x="4" y="4" width="1192" height="332" rx="12" fill="#080a0c" stroke="#242b31"/>
   <rect x="4" y="4" width="1192" height="40" rx="12" fill="#101417"/>
@@ -22,37 +35,39 @@
   <circle cx="74" cy="24" r="6" fill="#27c93f"/>
   <text x="600" y="29" text-anchor="middle" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="13" fill="#78838b">greyson@mac — zsh — 120×44</text>
 
-  <g font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="21" clip-path="url(#typed)">
+  <g class="typed" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="21" clip-path="url(#typed)">
     <text x="30" y="88"><tspan fill="#ffffff">greyson@mac</tspan><tspan fill="#6b757d"> ~ % </tspan><tspan fill="#f2f5f7">whoami --verbose</tspan></text>
-    <rect x="437" y="70" width="12" height="21" fill="#ffffff">
+    <rect class="motion" x="437" y="70" width="12" height="21" fill="#ffffff">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
+    <rect class="still" x="437" y="70" width="12" height="21" fill="#ffffff"/>
   </g>
 
   <g font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="17">
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="2.85s" fill="freeze"/>
+    <g class="reveal" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="2.85s" fill="freeze"/>
       <text x="30" y="128"><tspan fill="#aab4bb">name    </tspan><tspan fill="#f2f5f7">: Greyson</tspan></text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.05s" fill="freeze"/>
+    <g class="reveal" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.05s" fill="freeze"/>
       <text x="30" y="154"><tspan fill="#aab4bb">role    </tspan><tspan fill="#f2f5f7">: systems engineer · reverse engineer</tspan></text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.25s" fill="freeze"/>
+    <g class="reveal" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.25s" fill="freeze"/>
       <text x="30" y="180"><tspan fill="#aab4bb">os      </tspan><tspan fill="#f2f5f7">: macOS (primary)</tspan><tspan fill="#6b757d">  /  </tspan><tspan fill="#f2f5f7">Arch Linux (secondary)</tspan></text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.45s" fill="freeze"/>
+    <g class="reveal" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.45s" fill="freeze"/>
       <text x="30" y="206"><tspan fill="#aab4bb">focus   </tspan><tspan fill="#f2f5f7">: Rust · C · arm64e · QML · Wayland</tspan></text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.65s" fill="freeze"/>
+    <g class="reveal" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.65s" fill="freeze"/>
       <text x="30" y="232"><tspan fill="#aab4bb">work    </tspan><tspan fill="#f2f5f7">: Horizon · jb-research · SekaiPop</tspan></text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.85s" fill="freeze"/>
+    <g class="reveal" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.85s" fill="freeze"/>
       <text x="30" y="258"><tspan fill="#aab4bb">based   </tspan><tspan fill="#f2f5f7">: California, US</tspan></text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.05s" fill="freeze"/>
+    <g class="reveal" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.05s" fill="freeze"/>
       <text x="30" y="298"><tspan fill="#ffffff">greyson@mac</tspan><tspan fill="#6b757d"> ~ % </tspan></text>
-      <rect x="222" y="279" width="11" height="21" fill="#ffffff">
+      <rect class="motion" x="222" y="279" width="11" height="21" fill="#ffffff">
         <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
       </rect>
+      <rect class="still" x="222" y="279" width="11" height="21" fill="#ffffff"/>
     </g>
   </g>
 
