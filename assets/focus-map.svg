@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 396" width="820" height="396" role="img" aria-labelledby="t d">
+  <title id="t">Current focus map</title>
+  <desc id="d">Animated bars showing relative focus across Rust, C, QML, Python and Nix.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1420"/>
+      <stop offset="1" stop-color="#070c14"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00b3ff"/>
+      <stop offset="0.6" stop-color="#7df9ff"/>
+      <stop offset="1" stop-color="#00ffc8"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="394" rx="14" fill="url(#card)" stroke="#1a2b3b"/>
+  <g font-family="Fira Code, SF Mono, Menlo, Consolas, monospace">
+    <text x="30" y="43" font-size="15" letter-spacing="2.4" fill="#00ffc8">FOCUS_MAP // 2026</text>
+    <text x="790" y="43" font-size="11" text-anchor="end" fill="#4d6b80">relative activity</text>
+  </g>
+  <line x1="30" y1="58" x2="790" y2="58" stroke="#1a2b3b"/>
+
+  <g font-family="Fira Code, SF Mono, Menlo, Consolas, monospace">
+    <text x="30" y="88" font-size="14" fill="#c9d6e2">rust / systems</text>
+    <text x="790" y="88" font-size="12" text-anchor="end" fill="#7f97ad">95%</text>
+    <rect x="30" y="100" width="760" height="9" rx="4.5" fill="#12202e"/>
+    <rect x="30" y="100" width="722" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" from="0" to="722" dur="1.5s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <circle cx="752" cy="104.5" r="4" fill="#ffffff" opacity="0.9">
+      <animate attributeName="cx" from="30" to="752" dur="1.5s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+
+    <text x="30" y="146" font-size="14" fill="#c9d6e2">c / arm64e reverse engineering</text>
+    <text x="790" y="146" font-size="12" text-anchor="end" fill="#7f97ad">86%</text>
+    <rect x="30" y="158" width="760" height="9" rx="4.5" fill="#12202e"/>
+    <rect x="30" y="158" width="654" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" from="0" to="654" dur="1.5s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <circle cx="684" cy="162.5" r="4" fill="#ffffff" opacity="0.9">
+      <animate attributeName="cx" from="30" to="684" dur="1.5s" begin="0.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+
+    <text x="30" y="204" font-size="14" fill="#c9d6e2">qml / quickshell</text>
+    <text x="790" y="204" font-size="12" text-anchor="end" fill="#7f97ad">82%</text>
+    <rect x="30" y="216" width="760" height="9" rx="4.5" fill="#12202e"/>
+    <rect x="30" y="216" width="623" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" from="0" to="623" dur="1.5s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <circle cx="653" cy="220.5" r="4" fill="#ffffff" opacity="0.9">
+      <animate attributeName="cx" from="30" to="653" dur="1.5s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+
+    <text x="30" y="262" font-size="14" fill="#c9d6e2">python / tooling</text>
+    <text x="790" y="262" font-size="12" text-anchor="end" fill="#7f97ad">74%</text>
+    <rect x="30" y="274" width="760" height="9" rx="4.5" fill="#12202e"/>
+    <rect x="30" y="274" width="562" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" from="0" to="562" dur="1.5s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <circle cx="592" cy="278.5" r="4" fill="#ffffff" opacity="0.9">
+      <animate attributeName="cx" from="30" to="592" dur="1.5s" begin="0.65s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+
+    <text x="30" y="320" font-size="14" fill="#c9d6e2">nix / shell</text>
+    <text x="790" y="320" font-size="12" text-anchor="end" fill="#7f97ad">68%</text>
+    <rect x="30" y="332" width="760" height="9" rx="4.5" fill="#12202e"/>
+    <rect x="30" y="332" width="517" height="9" rx="4.5" fill="url(#bar)">
+      <animate attributeName="width" from="0" to="517" dur="1.5s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <circle cx="547" cy="336.5" r="4" fill="#ffffff" opacity="0.9">
+      <animate attributeName="cx" from="30" to="547" dur="1.5s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+
+    <line x1="30" y1="362" x2="790" y2="362" stroke="#1a2b3b"/>
+    <text x="30" y="382" font-size="11" fill="#4d6b80">recomputed from live repos</text>
+    <text x="790" y="382" font-size="10.5" text-anchor="end" fill="#4d6b80">scroll → selected work</text>
+  </g>
+</svg>
