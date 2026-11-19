@@ -1,13 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 34" width="250" height="34" role="img" aria-label="Status: active, building">
-  <rect x="1" y="1" width="248" height="32" rx="16" fill="#0a1721" stroke="#1e3a4a"/>
-  <circle cx="20" cy="17" r="5" fill="#00ffc8">
-    <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="20" cy="17" r="9" fill="none" stroke="#00ffc8" stroke-width="1" opacity="0.5">
-    <animate attributeName="r" values="6;12" dur="1.6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0" dur="1.6s" repeatCount="indefinite"/>
-  </circle>
-  <g font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.2" fill="#9fe6d6">
-    <text x="38" y="22">ACTIVE / BUILDING</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 34" width="330" height="34" role="img" aria-label="Session active on macOS, Arch in rotation">
+  <rect x="1" y="1" width="328" height="32" rx="6" fill="#080a0c" stroke="#242b31"/>
+  <g font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="13">
+    <text x="14" y="23" fill="#ffffff">❯</text>
+    <text x="32" y="23" fill="#aab4bb">active · mac primary / arch in rotation</text>
   </g>
+  <rect x="303" y="8" width="9" height="17" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>

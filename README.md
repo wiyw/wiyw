@@ -1,48 +1,44 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Greyson — systems engineer and reverse engineer" width="100%" />
+<img src="assets/terminal.svg" alt="Terminal session typing whoami --verbose and printing output" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00FFC8&center=true&vCenter=true&width=680&lines=Rust+Systems+Engineer;Reverse+Engineer;iOS+Security+Researcher;Wayland+Ricer" alt="Current roles" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=FFFFFF&center=true&vCenter=true&width=760&lines=greyson%40mac+%25+cargo+build+-p+horizon;greyson%40mac+%25+ipsw+extract+--dyld;greyson%40mac+%25+qmlscene+SekaiPop;greyson%40mac+%25+ssh+archbox" alt="Typed commands" />
 
 <p>
-  <img src="https://img.shields.io/badge/focus-Rust%20%2B%20RE-00ffc8?style=for-the-badge&logo=rust&logoColor=black" alt="Focus" />
-  <img src="https://img.shields.io/badge/Linux-Arch-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
-  <img src="https://img.shields.io/badge/California-US-00b3ff?style=for-the-badge" alt="Location" />
-  <img src="https://img.shields.io/github/followers/wiyw?label=Followers&style=for-the-badge" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/wiyw?label=Total%20Stars&style=for-the-badge" alt="Stars" />
+  <img src="https://img.shields.io/badge/macOS-daily%20driver-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS daily driver" />
+  <img src="https://img.shields.io/badge/Arch-still%20use%20it-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/California-US-242b31?style=for-the-badge" alt="Location" />
+  <img src="https://img.shields.io/github/followers/wiyw?label=followers&style=for-the-badge" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/wiyw?label=stars&style=for-the-badge" alt="Stars" />
 </p>
 
 </div>
 
-## ◤ Signal
+## ❯ cat about.md
 
-I build systems and I take them apart. These days my time splits between rewriting Minecraft: Java Edition from scratch in **Rust**, reversing **iOS firmware** diffs down to the Mach-O and kext layer, and tuning a Wayland desktop until every pixel earns its place. The through-line is the same: understand the whole stack, then own it.
+Most of my work happens on a Mac now: Rust on Horizon, iOS firmware diffs, and fixing whatever I broke in my Quickshell setup. Arch is still around — separate box, used for Wayland experiments and anything I don't want touching my daily driver.
 
 ```text
-$ whoami --verbose
+greyson@mac ~ % uname -a
+Darwin greysons-mac 25.2.0 arm64
 
-name        Greyson
-role        Systems engineer · reverse engineer
-location    California, US
-focus       Rust · C · arm64e · QML · Wayland
-research    iOS patch diffing · CVE correlation · memory safety
-building    Horizon (MC:JE in Rust) · SekaiPop (Quickshell rice)
-method      read the source, diff the binary, verify the behavior
-offclock    orbital mechanics · deep-field images
+greyson@mac ~ % ssh archbox
+greyson@archbox ~ % uname -a
+Linux archbox 6.18.8-arch1-1 x86_64 GNU/Linux
 ```
 
-## ◤ Now
+## ❯ ./now --status
 
 <div align="center">
 
-<img src="assets/status.svg" alt="Active, building" height="30" />
+<img src="assets/status.svg" alt="Session active on macOS, Arch in rotation" height="32" />
 
 </div>
 
-- Contributing to **Horizon** — a vanilla-accurate Minecraft: Java Edition engine in Rust, checked against the original with hundreds of differential harnesses.
-- Reverse-engineering **iOS 27.0.1 → 27.2** in `jb-research`: IPSW extraction, dyld shared caches, Ghidra decompilation and version diff reports.
-- Polishing **SekaiPop**, a Project Sekai–themed Quickshell rice, and its `omdrop` plugin.
-- Reading up on allocator internals, `arm64e` code signing and the Wayland protocol.
+- **Horizon** — mostly Rust. I've been helping close gaps against vanilla and running the differential checks.
+- **jb-research** — the iOS side: diffing 27.0.1 against 27.2, pulling dylibs out of the shared cache.
+- **SekaiPop** — my Quickshell rice. Still test it on the Arch box before I call it done.
+- Currently reading about allocators and `arm64e` signing.
 
 <div align="center">
 
@@ -50,11 +46,11 @@ offclock    orbital mechanics · deep-field images
 
 </div>
 
-## ◤ Disciplines
+## ❯ man disciplines
 
-| Reverse Engineering | Systems & Rust | Desktop Craft |
+| Reverse Engineering | Systems & Rust | Desktop & Daily Drivers |
 | :--- | :--- | :--- |
-| • iOS patch diffing & CVE correlation<br>• Ghidra, `ipsw`, dyld shared cache<br>• Mach-O `arm64e`, kexts, decompilation<br>• Binary instrumentation & analysis | • Rust engine & tooling engineering<br>• Differential testing against vanilla<br>• Heap behavior & allocator internals<br>• Low-level C utilities | • QML overlays with Quickshell<br>• Hyprland / Wayland pipelines<br>• Declarative NixOS setups<br>• GLSL shaders & pixel-perfect theming |
+| iOS diffs, CVE lookup, Ghidra, dyld shared cache, `arm64e` Mach-O | Rust engines, differential harnesses, allocator behavior, C utilities | macOS daily, Arch for experiments, Quickshell/QML, Hyprland on the Linux box |
 
 <div align="center">
 
@@ -62,11 +58,11 @@ offclock    orbital mechanics · deep-field images
 
 </div>
 
-## ◤ Focus Map
+## ❯ cat focus.map
 
 <div align="center">
 
-<img src="assets/focus-map.svg" alt="Animated chart of current language focus" width="100%" />
+<img src="assets/focus-map.svg" alt="Terminal output of animated language focus bars" width="100%" />
 
 </div>
 
@@ -82,15 +78,15 @@ offclock    orbital mechanics · deep-field images
   <img src="https://img.shields.io/badge/GLSL-3A8FBD?style=flat-square" alt="GLSL" />
 </p>
 
-## ◤ Selected Work
+## ❯ ls -1 projects/
 
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
-| [horizon](https://github.com/wiyw/horizon) | Minecraft: Java Edition rewritten in Rust, validated against vanilla with 281 differential harnesses | `Rust` `WGSL` `GLSL` |
-| [jb-research](https://github.com/wiyw/jb-research) | Patch diffing iOS 27.0.1 → 27.2, CVE references, Ghidra decompilation artifacts | `C` `arm64e` |
-| [SekaiPop](https://github.com/wiyw/SekaiPop) | A Project Sekai–inspired Quickshell rice | `QML` `GLSL` `Lua` |
-| [sekaipop-omdrop](https://github.com/wiyw/sekaipop-omdrop) | Omdrop plugin for the SekaiPop rice | `QML` `JavaScript` |
-| [nixos-config](https://github.com/wiyw/nixos-config) | Interstellar-themed NixOS desktop configuration | `Nix` |
+| [horizon](https://github.com/wiyw/horizon) | Minecraft: Java Edition rewritten in Rust, checked against vanilla with 281 differential harnesses | `Rust` `WGSL` `GLSL` |
+| [jb-research](https://github.com/wiyw/jb-research) | Patch diffing iOS 27.0.1 → 27.2, CVE references, Ghidra output | `C` `arm64e` |
+| [SekaiPop](https://github.com/wiyw/SekaiPop) | Project Sekai themed Quickshell rice | `QML` `GLSL` `Lua` |
+| [sekaipop-omdrop](https://github.com/wiyw/sekaipop-omdrop) | Omdrop plugin for SekaiPop | `QML` `JavaScript` |
+| [nixos-config](https://github.com/wiyw/nixos-config) | Interstellar themed NixOS config | `Nix` |
 
 <p align="center">
   <a href="https://github.com/wiyw?tab=repositories">view all repositories →</a>
@@ -102,20 +98,20 @@ offclock    orbital mechanics · deep-field images
 
 </div>
 
-## ◤ Telemetry
+## ❯ ./telemetry.sh
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=wiyw&show_icons=true&hide_border=true&bg_color=0a0f18&title_color=00ffc8&icon_color=7df9ff&text_color=c9d6e2&count_private=true" alt="GitHub stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wiyw&layout=compact&hide_border=true&bg_color=0a0f18&title_color=00ffc8&text_color=c9d6e2&langs_count=7" alt="Top languages" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=wiyw&show_icons=true&hide_border=true&bg_color=080a0c&title_color=f5f7f8&icon_color=aab4bb&text_color=aab4bb&count_private=true" alt="GitHub stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wiyw&layout=compact&hide_border=true&bg_color=080a0c&title_color=f5f7f8&text_color=aab4bb&langs_count=7" alt="Top languages" width="48%" />
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wiyw&bg_color=0a0f18&color=00ffc8&line=7df9ff&point=ffffff&theme=github-dark&hide_border=true" alt="Contribution activity" width="98%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=wiyw&bg_color=080a0c&color=f5f7f8&line=aab4bb&point=ffffff&theme=github-dark&hide_border=true" alt="Contribution activity" width="98%" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com/?user=wiyw&theme=dark&hide_border=true&background=0a0f18&foreground=c9d6e2&today=00ffc8&streak=7df9ff&total=00b3ff" alt="Contribution streak" width="70%" />
+<img src="https://streak-stats.demolab.com/?user=wiyw&theme=dark&hide_border=true&background=080a0c&foreground=f5f7f8&today=ffffff&streak=aab4bb&total=78838b" alt="Contribution streak" width="70%" />
 
 </div>
 
@@ -123,12 +119,6 @@ offclock    orbital mechanics · deep-field images
 
 <img src="assets/divider.svg" alt="" width="70%" />
 
-<p><sub>built with intent · broken with curiosity</sub></p>
-
-<p>
-  <a href="https://github.com/wiyw">GitHub</a> ·
-  <a href="https://github.com/wiyw?tab=repositories">Repositories</a> ·
-  <a href="https://github.com/wiyw/wiyw">Profile README source</a>
-</p>
+<p><sub>greyson@mac ~ % exit<br />logout</sub></p>
 
 </div>
