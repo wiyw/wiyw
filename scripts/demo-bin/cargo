@@ -1,6 +1,0 @@
-#!/bin/sh
-printf '   Compiling horizon-client v26.3.0\n'
-sleep 0.4
-printf '   Compiling horizon-server v26.3.0\n'
-sleep 0.5
-printf '    Finished release [optimized] target(s) in 3.42s\n'

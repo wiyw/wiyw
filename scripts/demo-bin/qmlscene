@@ -1,5 +1,0 @@
-#!/bin/sh
-printf 'SekaiPop loaded\n'
-sleep 0.3
-printf '  widgets : 12\n'
-printf '  shell   : quickshell\n'

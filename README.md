@@ -6,8 +6,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=FFFFFF&center=true&vCenter=true&width=760&lines=greyson%40mac+%25+cargo+build+-p+horizon;greyson%40mac+%25+ipsw+extract+--dyld;greyson%40mac+%25+qmlscene+SekaiPop;greyson%40mac+%25+ssh+archbox" alt="Typed commands" />
 
-<img src="assets/demo.gif" alt="Recorded terminal session: cargo build, ipsw extract, and qmlscene" width="100%" />
-
 </div>
 
 <div align="center">
@@ -39,20 +37,6 @@
 <p><sub><a href="https://github.com/wiyw/slack-clone">slack-clone</a> · <a href="https://github.com/wiyw/Invention-Convention-2026">Invention-Convention-2026</a> · <a href="https://github.com/wiyw/nixos-config">nixos-config</a></sub></p>
 
 </details>
-
-</div>
-
-<div align="center">
-
-<img src="assets/divider.svg" alt="" width="70%" />
-
-</div>
-
-## ❯ growth
-
-<div align="center">
-
-<img src="https://api.star-history.com/svg?repos=horizon-rust/horizon&type=Date&theme=dark" alt="Star history of horizon-rust/horizon" width="100%" />
 
 </div>
 
