@@ -20,32 +20,6 @@
 
 </div>
 
-## ❯ focus
-
-<div align="center">
-
-<img src="assets/focus-map.svg" alt="Terminal output of animated language focus bars" width="100%" />
-
-<p>
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/QML-41CD52?style=flat-square" alt="QML" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Nix-5277C3?style=flat-square&logo=nixos&logoColor=white" alt="Nix" />
-  <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua" />
-  <img src="https://img.shields.io/badge/GLSL-3A8FBD?style=flat-square" alt="GLSL" />
-</p>
-
-</div>
-
-<div align="center">
-
-<img src="assets/divider.svg" alt="" width="70%" />
-
-</div>
-
 ## ❯ work
 
 | Project | Description | Stack |
