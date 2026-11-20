@@ -10,7 +10,7 @@
   </style>
 
   <rect x="4" y="4" width="1192" height="56" rx="10" fill="#080a0c" stroke="#242b31"/>
-  <text x="30" y="40" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="16"><tspan fill="#ffffff">❯ now</tspan><tspan fill="#6b757d">  committed to </tspan><tspan fill="#f2f5f7">wiyw/wiyw</tspan><tspan fill="#6b757d"> · </tspan><tspan fill="#aab4bb">"Remove VHS demo and star history from profile README"</tspan><tspan fill="#6b757d"> · 11h ago</tspan></text>
+  <text x="30" y="40" font-family="Fira Code, SF Mono, Menlo, Consolas, monospace" font-size="16"><tspan fill="#ffffff">❯ now</tspan><tspan fill="#6b757d">  committed to </tspan><tspan fill="#f2f5f7">wiyw/wiyw</tspan><tspan fill="#6b757d"> · </tspan><tspan fill="#aab4bb">"Remove VHS demo and star history from profile README"</tspan><tspan fill="#6b757d"> · 1d ago</tspan></text>
   <rect class="motion" x="1160" y="27" width="10" height="16" fill="#ffffff">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
