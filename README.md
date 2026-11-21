@@ -34,7 +34,7 @@
 <details>
 <summary><sub>more repositories</sub></summary>
 
-<p><sub><a href="https://github.com/wiyw/slack-clone">slack-clone</a> · <a href="https://github.com/wiyw/Invention-Convention-2026">Invention-Convention-2026</a> · <a href="https://github.com/wiyw/nixos-config">nixos-config</a></sub></p>
+<p><sub><a href="https://github.com/wiyw/orbi-app-security-pocs">orbi-app-security-pocs</a> · <a href="https://github.com/wiyw/slack-clone">slack-clone</a> · <a href="https://github.com/wiyw/Invention-Convention-2026">Invention-Convention-2026</a> · <a href="https://github.com/wiyw/nixos-config">nixos-config</a></sub></p>
 
 </details>
 
